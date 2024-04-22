@@ -2,7 +2,7 @@ import React from 'react'
 
 const CarWidget = () => {
   return (
-    <div>CarWidget</div>
+    <div className='bg-blue-500'>CarWidget</div>
   )
 }
 
