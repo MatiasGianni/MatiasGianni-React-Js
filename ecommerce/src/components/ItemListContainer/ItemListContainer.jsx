@@ -21,7 +21,7 @@ const ItemListContainer = ({ title }) => {
 }, [categoryId]);
 
   return (
-    <div className="text-center">
+    <div className="text-center bg-gray-400">
       <h1 className="text-2xl font-bold mt-8">{title}</h1>
       
       <ItemmList products={products} />

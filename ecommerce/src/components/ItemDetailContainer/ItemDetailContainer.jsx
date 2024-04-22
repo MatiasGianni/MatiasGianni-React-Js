@@ -16,7 +16,7 @@ const ItemDetailContainer = () => {
     
 
     return (
-        <div className="bg-white">
+        <div className="bg-gray-400">
             <div className="mx-0 w-full px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
                 <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10">
                     {producto && Object.keys(producto).length > 0 && <ItemDetail {...producto} />}

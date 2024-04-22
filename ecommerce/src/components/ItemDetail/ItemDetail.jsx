@@ -15,8 +15,8 @@ const ItemDetail = ({ nombre, precio, categoria, stock, descripcion, img }) => {
             />
           </div>
           <div className="w-full lg:w-1/2">
-            <p className="text-gray-600 mb-2">{descripcion}</p>
-            <p className="text-gray-600 mb-2">Stock: {stock}</p>
+            <p className="text-gray-750 mb-2">{descripcion}</p>
+            <p className="text-gray-750 mb-2">Stock: {stock}</p>
             <p className="text-gray-800 font-bold">Precio: ${precio}</p>
             <button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
               Agregar al carrito
