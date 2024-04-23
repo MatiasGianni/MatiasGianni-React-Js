@@ -17,6 +17,7 @@ function App() {
 
         <Route path="/producto/:productId" element={<ItemDetailContainer />} />
       </Routes>
+      
     </BrowserRouter>
   );
 }
