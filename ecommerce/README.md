@@ -1,8 +1,23 @@
-# React + Vite
+# Proyecto eCommerce 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Este proyecto eCommerce utiliza React Vite y Firebase.
+La aplicación permite a los usuarios explorar productos, agregar productos al carrito de compras, eliminar productos y realizar pagos seguros.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Características
+- Navegación por categorías de productos
+- Detalles de producto con imágenes y descripciones
+- Carrito de compras con funcionalidad de agregar y eliminar productos
+- Proceso de pago seguro
+
+## Tecnologías Utilizadas
+
+Frontend: React.js
+Estilizado: Taiwindcss
+Integración de Pagos: Mercado Pago
+Gestión de Estado: el estado de los componentes se gestiona principalmente utilizando el hook useState() proporcionado por React.
+Routing: React Router
+Almacenamiento de Datos: Firebase
+Hosting: Vercel
+
