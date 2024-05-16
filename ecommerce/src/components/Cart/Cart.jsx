@@ -7,7 +7,7 @@ const Cart = () => {
   if (cart.length === 0) {
     return (
       <div className="text-3xl font-bold mb-8 text-center mt-10">
-        <h2>Todavia no agregaste productos</h2>
+        <h2>Todavia no agregaste productos.</h2>
         <button className="text-xl font-semibold bg-gray-800 text-white py-2 px-4 rounded-lg mt-4">
           <Link to="/">Ver productos!!!</Link>
         </button>
