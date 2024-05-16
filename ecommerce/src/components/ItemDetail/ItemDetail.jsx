@@ -1,9 +1,39 @@
-import React from "react";
+import React, { useContext, useState } from "react";
+import ItemCount from "../ItemCount/ItemCount";
+import Context from "../../context/CartContext";
+import { Link } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import useCounter from "../../Hooks/useCounter";
 
-const ItemDetail = ({ nombre, precio, categoria, stock, descripcion, img }) => {
+const ItemDetail = ({
+  nombre,
+  precio,
+  categoria,
+  stock,
+  descripcion,
+  img,
+  id,
+  currentQuantity
+}) => {
   const initialValue = 1;
-  const { count, incrementar, decrementar } = useCounter(initialValue, stock);
+ const [ quantity, setQuantity] = useState(0)
+  const { addItem } = useContext(Context);
+
+  const onAdd = (quantity) => {
+    const item = {
+      id,
+      nombre,
+      precio,
+      stock,
+      img
+    };
+    setQuantity(quantity)
+    addItem(item, quantity);
+    toast(`Agregaste ${quantity} unidades`);
+  };
+
+  const maxAvailable = stock - currentQuantity;
 
   return (
     <div className="flex justify-center items-center h-full">
@@ -21,31 +51,29 @@ const ItemDetail = ({ nombre, precio, categoria, stock, descripcion, img }) => {
             <p className="text-gray-750 mb-2">{descripcion}</p>
             <p className="text-gray-750 mb-2">Stock: {stock}</p>
             <p className="text-gray-800 font-bold">Precio: ${precio}</p>
-
-            <div className="flex items-center justify- mt-4">
-              <button
-                onClick={decrementar}
-                className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded mx-2"
-              >
-                -
+            
+            {
+              quantity > 0 ?
+              <div className="flex space-x-4">
+              <button className="bg-gray-800 hover:bg-gray-700 text-white px-4 py-2 rounded transition duration-300">
+                <Link to="/cart" className="no-underline text-white">
+                  Ir al carrito
+                </Link>
               </button>
-              <p className="text-gray-800 font-semibold pr-2 pl-2">{count}</p>
-              <button
-                onClick={incrementar}
-                className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded mx-2"
-              >
-                +
+              <button className="bg-gray-800 hover:bg-gray-700 text-white px-4 py-2 rounded transition duration-300">
+                <Link to="/" className="no-underline text-white">
+                  Seguir comprando
+                </Link>
               </button>
             </div>
-
-            <button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
-              Agregar al carrito
-            </button>
+              :
+              <ItemCount stock={stock} initialValue={1} onAdd={onAdd} maxAvailable={maxAvailable}/>
+            }
           </div>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };
-
 export default ItemDetail;

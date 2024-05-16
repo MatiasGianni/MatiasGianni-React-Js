@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
-const useCounter = (initialValue, stock) => {
+const useCounter = (initialValue, maxAvailable) => {
   const [count, setCount] = useState(initialValue);
 
   const incrementar = () => {
-    count < stock && setCount(count + 1);
+    count < maxAvailable && setCount(count + 1);
   };
 
   const decrementar = () => {

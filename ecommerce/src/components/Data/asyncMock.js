@@ -7,9 +7,7 @@ export const productos = [
     stock: 50,
     descripcion:
       "Zapatillas Nike Air Max 90 para hombre, ideales para correr o entrenar.",
-    img: "https://essential.vtexassets.com/arquivos/ids/1243571-1200-auto?v=638409292502970000&width=1200&height=auto&aspect=true",
-    img1: "https://essential.vtexassets.com/arquivos/ids/1243572-1200-auto?v=638409292507000000&width=1200&height=auto&aspect=true",
-    img2: "https://essential.vtexassets.com/arquivos/ids/1243573-1200-auto?v=638409292511530000&width=1200&height=auto&aspect=true",
+    img: "https://res.cloudinary.com/doaxqyxbn/image/upload/f_auto,q_auto/v1/1/v3m7exunbxv3kza483fv",
   },
   {
     id: 2,
@@ -19,9 +17,7 @@ export const productos = [
     stock: 30,
     descripcion:
       "Zapatillas Adidas Ultraboost para mujer, diseñadas para brindar comodidad y rendimiento.",
-    img: "https://essential.vtexassets.com/arquivos/ids/1288945-1200-auto?v=638459397555400000&width=1200&height=auto&aspect=true",
-    img1: "https://essential.vtexassets.com/arquivos/ids/1288946-1200-auto?v=638459397559670000&width=1200&height=auto&aspect=true",
-    img2: "https://essential.vtexassets.com/arquivos/ids/1288947-1200-auto?v=638459397563100000&width=1200&height=auto&aspect=true",
+    img: "https://res.cloudinary.com/doaxqyxbn/image/upload/f_auto,q_auto/v1/1/lpgje9auxhc1aa6kky7b",
   },
   {
     id: 3,
@@ -31,9 +27,7 @@ export const productos = [
     stock: 20,
     descripcion:
       "Zapatillas Puma RS-X unisex, con un diseño retro y tecnología de amortiguación avanzada.",
-    img: "https://essential.vtexassets.com/arquivos/ids/1298100-1200-auto?v=638466523046630000&width=1200&height=auto&aspect=true",
-    img1: "https://essential.vtexassets.com/arquivos/ids/1298101-1200-auto?v=638466523050400000&width=1200&height=auto&aspect=true",
-    img2: "https://essential.vtexassets.com/arquivos/ids/1298102-1200-auto?v=638466523054900000&width=1200&height=auto&aspect=true",
+    img: "https://res.cloudinary.com/doaxqyxbn/image/upload/f_auto,q_auto/v1/1/hyluubb7xftme2sxjwhj",
   },
   {
     id: 4,
@@ -43,9 +37,7 @@ export const productos = [
     stock: 40,
     descripcion:
       "Zapatillas New Balance 574 para niños, duraderas y cómodas para el uso diario.",
-    img: "https://essential.vtexassets.com/arquivos/ids/1265103-1200-auto?v=638430123208830000&width=1200&height=auto&aspect=true",
-    img1: "https://essential.vtexassets.com/arquivos/ids/1265104-1200-auto?v=638430123212900000&width=1200&height=auto&aspect=true",
-    img2: "https://essential.vtexassets.com/arquivos/ids/1265105-1200-auto?v=638430123216800000&width=1200&height=auto&aspect=true",
+    img: "https://res.cloudinary.com/doaxqyxbn/image/upload/f_auto,q_auto/v1/1/locmzipafdagvihrb2sa",
   },
   {
     id: 5,
@@ -55,9 +47,7 @@ export const productos = [
     stock: 25,
     descripcion:
       "Zapatillas Nike React Infinity Run con una amortiguación superior para corredores.",
-    img: "https://essential.vtexassets.com/arquivos/ids/1296202-1200-auto?v=638466467604230000&width=1200&height=auto&aspect=true",
-    img1: "https://essential.vtexassets.com/arquivos/ids/1296203-1200-auto?v=638466467612200000&width=1200&height=auto&aspect=true",
-    img2: "https://essential.vtexassets.com/arquivos/ids/1296204-1200-auto?v=638466467615800000&width=1200&height=auto&aspect=true",
+    img: "https://res.cloudinary.com/doaxqyxbn/image/upload/f_auto,q_auto/v1/1/chn1dvyqsloszfylafsq",
   },
   {
     id: 6,
@@ -67,9 +57,7 @@ export const productos = [
     stock: 35,
     descripcion:
       "Zapatillas Adidas NMD_R1 para mujer, estilo urbano y comodidad todo el día.",
-    img: "https://essential.vtexassets.com/arquivos/ids/1288987-1200-auto?v=638459397892070000&width=1200&height=auto&aspect=true",
-    img1: "https://essential.vtexassets.com/arquivos/ids/1288988-1200-auto?v=638459397895370000&width=1200&height=auto&aspect=true",
-    img2: "https://essential.vtexassets.com/arquivos/ids/1288989-1200-auto?v=638459397898700000&width=1200&height=auto&aspect=true",
+    img: "https://res.cloudinary.com/doaxqyxbn/image/upload/f_auto,q_auto/v1/1/uimnagyc0p8i4nadpf8s",
   },
   {
     id: 7,
@@ -79,9 +67,7 @@ export const productos = [
     stock: 15,
     descripcion:
       "Zapatillas Puma Clyde Hardwood unisex, para un estilo retro en la cancha.",
-    img: "https://essential.vtexassets.com/arquivos/ids/1290822-1200-auto?v=638461317476500000&width=1200&height=auto&aspect=true",
-    img1: "https://essential.vtexassets.com/arquivos/ids/1290823-1200-auto?v=638461317479470000&width=1200&height=auto&aspect=true",
-    img2: "https://essential.vtexassets.com/arquivos/ids/1290824-1200-auto?v=638461317482430000&width=1200&height=auto&aspect=true",
+    img: "https://res.cloudinary.com/doaxqyxbn/image/upload/f_auto,q_auto/v1/1/oh50rhespqszwuh7tnqd",
   },
   {
     id: 8,
@@ -91,9 +77,7 @@ export const productos = [
     stock: 20,
     descripcion:
       "Zapatillas New Balance Fresh Foam 1080v11 con una suela de amortiguación superior.",
-    img: "https://essential.vtexassets.com/arquivos/ids/1302902-1200-auto?v=638472482727800000&width=1200&height=auto&aspect=true",
-    img1: "https://essential.vtexassets.com/arquivos/ids/1302903-1200-auto?v=638472482730930000&width=1200&height=auto&aspect=true",
-    img2: "https://essential.vtexassets.com/arquivos/ids/1302904-1200-auto?v=638472482733770000&width=1200&height=auto&aspect=true",
+    img: "https://res.cloudinary.com/doaxqyxbn/image/upload/f_auto,q_auto/v1/1/jxgcwjm5yfbq8gyz5lvz",
   },
   {
     id: 9,
@@ -103,9 +87,7 @@ export const productos = [
     stock: 30,
     descripcion:
       "Zapatillas Nike Air Zoom Pegasus 38 con una amortiguación eficiente y suave.",
-    img: "https://essential.vtexassets.com/arquivos/ids/1197924-1200-auto?v=638369053792170000&width=1200&height=auto&aspect=true",
-    img1: "https://essential.vtexassets.com/arquivos/ids/1197925-1200-auto?v=638369053796230000&width=1200&height=auto&aspect=true",
-    img2: "https://essential.vtexassets.com/arquivos/ids/1197926-1200-auto?v=638369053800130000&width=1200&height=auto&aspect=true",
+      img: "https://res.cloudinary.com/doaxqyxbn/image/upload/f_auto,q_auto/v1/1/ltycazeq7t3p7i7c1uws",
   },
   {
     id: 10,
@@ -115,9 +97,7 @@ export const productos = [
     stock: 40,
     descripcion:
       "Zapatillas Adidas Superstar para niños, clásicas y elegantes para cualquier ocasión.",
-    img: "https://essential.vtexassets.com/arquivos/ids/1303274-1200-auto?v=638472489246030000&width=1200&height=auto&aspect=true",
-    img1: "https://essential.vtexassets.com/arquivos/ids/1303275-1200-auto?v=638472489249000000&width=1200&height=auto&aspect=true",
-    img2: "https://essential.vtexassets.com/arquivos/ids/1303276-1200-auto?v=638472489251970000&width=1200&height=auto&aspect=true",
+    img: "https://res.cloudinary.com/doaxqyxbn/image/upload/f_auto,q_auto/v1/1/wkwpkyioj50oyr8od822",
   },
   {
     id: 11,
@@ -127,9 +107,7 @@ export const productos = [
     stock: 30,
     descripcion:
       "Zapatillas Puma Future Rider para hombre, con un estilo retro y comodidad moderna.",
-    img: "https://essential.vtexassets.com/arquivos/ids/1275671-1200-auto?v=638446395460300000&width=1200&height=auto&aspect=true",
-    img1: "https://essential.vtexassets.com/arquivos/ids/1275672-150-auto?v=638446395463330000&width=150&height=auto&aspect=true",
-    img2: "https://essential.vtexassets.com/arquivos/ids/1275673-1200-auto?v=638446395466130000&width=1200&height=auto&aspect=true",
+    img: "https://res.cloudinary.com/doaxqyxbn/image/upload/f_auto,q_auto/v1/1/tyctx1ybvaznncgi56de",
   },
   {
     id: 12,
@@ -139,9 +117,7 @@ export const productos = [
     stock: 25,
     descripcion:
       "Zapatillas New Balance Fresh Foam X para mujer, con una amortiguación suave y eficiente.",
-    img: "https://essential.vtexassets.com/arquivos/ids/1429599-1200-auto?v=638491832844770000&width=1200&height=auto&aspect=true",
-    img1: "https://essential.vtexassets.com/arquivos/ids/1429600-1200-auto?v=638491832848500000&width=1200&height=auto&aspect=true",
-    img2: "https://essential.vtexassets.com/arquivos/ids/1429601-1200-auto?v=638491832851700000&width=1200&height=auto&aspect=true",
+    img: "https://res.cloudinary.com/doaxqyxbn/image/upload/f_auto,q_auto/v1/1/l6lwkzxnd97yby9pum53",
   },
   {
     id: 13,
@@ -151,9 +127,7 @@ export const productos = [
     stock: 20,
     descripcion:
       "Zapatillas Nike Blazer Mid '77 unisex, con un diseño retro y estilo clásico.",
-    img: "https://essential.vtexassets.com/arquivos/ids/879626-1200-auto?v=638235146469030000&width=1200&height=auto&aspect=true",
-    img1: "https://essential.vtexassets.com/arquivos/ids/879630-1200-auto?v=638235146483530000&width=1200&height=auto&aspect=true",
-    img2: "https://essential.vtexassets.com/arquivos/ids/879636-1200-auto?v=638235146498200000&width=1200&height=auto&aspect=true",
+    img: "https://res.cloudinary.com/doaxqyxbn/image/upload/f_auto,q_auto/v1/1/il9vwz8jjssogbwzf8xv",
   },
   {
     id: 14,
@@ -163,9 +137,7 @@ export const productos = [
     stock: 35,
     descripcion:
       "Zapatillas Adidas Gazelle para niños, cómodas y con un estilo deportivo clásico.",
-    img: "https://essential.vtexassets.com/arquivos/ids/1434997-1200-auto?v=638491894151530000&width=1200&height=auto&aspect=true",
-    img1: "https://essential.vtexassets.com/arquivos/ids/1434998-1200-auto?v=638491894154970000&width=1200&height=auto&aspect=true",
-    img2: "https://essential.vtexassets.com/arquivos/ids/1434999-1200-auto?v=638491894158570000&width=1200&height=auto&aspect=true",
+    img: "https://res.cloudinary.com/doaxqyxbn/image/upload/f_auto,q_auto/v1/1/tvs4zl8sj5hgjbh7hoi6",
   },
   {
     id: 15,
@@ -175,9 +147,18 @@ export const productos = [
     stock: 25,
     descripcion:
       "Zapatillas Puma Foreverrun Nitro unisex, inspiradas en el estilo de la cancha de baloncesto.",
-    img: "https://essential.vtexassets.com/arquivos/ids/1285662-1200-auto?v=638491031668700000&width=1200&height=auto&aspect=true",
-    img1: "https://essential.vtexassets.com/arquivos/ids/1285663-1200-auto?v=638491031671670000&width=1200&height=auto&aspect=true",
-    img2: "https://essential.vtexassets.com/arquivos/ids/1285664-1200-auto?v=638491031674630000&width=1200&height=auto&aspect=true",
+    img: "https://res.cloudinary.com/doaxqyxbn/image/upload/f_auto,q_auto/v1/1/bv3ypp8joec9mutcjnwd",
+
+  },
+  {
+    id: 16,
+    nombre: "Topper Chalpa",
+    precio: 75000,
+    categoria: "Niños",
+    stock: 15,
+    descripcion:
+      "Zapatillas Topper Chalpa Niño, inspiradas en el estilo de montañes.",
+    img: "https://res.cloudinary.com/doaxqyxbn/image/upload/f_auto,q_auto/v1/1/bbgz3nfc4hrqq1vqen1v",
   },
 ];
 
